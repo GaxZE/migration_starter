@@ -1,0 +1,7 @@
+id: subscriptions_group
+label: subscriptions_group
+description: 'Xmas Subscriptions nodes to Landing pages'
+source_type: 'Drupal 8'
+shared_configuration:
+  source:
+    key: default

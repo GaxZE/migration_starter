@@ -1,0 +1,9 @@
+type: module
+name: 'Migrate: 28688'
+description: 'Migrating 8 subscriptions to landing_pages'
+package: Custom Migration
+core: 8.x
+dependencies:
+  - drupal:migrate
+  - migrate_plus:migrate_plus
+  - migrate_tols:migrate_tools

@@ -1,0 +1,14 @@
+# Migration configuration for subscription content.
+id: subscriptions_node
+label:
+migration_group: subscriptions_group
+source:
+  plugin: subscriptions_node
+destination:
+  plugin: entity:node
+process:
+  type:
+    plugin: default_value
+    default_value: landing_page
+  title: title
+  nid: nid
